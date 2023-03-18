@@ -6,6 +6,7 @@ int main() {
     printf(" PLEASE ENTER THE NUMBER OF ELEMENTS IN THE ARRAY : ");
     scanf("%d", &n);
 
+    //enter elements in ascending or descending order 
     printf("\n ENTER THE ELEMENTS OF THE ARRAY IN SORTED ORDER HERE :\n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
