@@ -21,7 +21,7 @@ int main()
         }
 }
     printf("\n\tTotal Number of Positive Numbers Entered are : %d\n\n", positive_num);
-    printf("\tTOTAL NUMBER OF POSITIVE NUMBERS ENTERED ARE : %d\n", negative_num);
+    printf("\tTotal Numbers of Negative Numbers Entered are  : %d\n", negative_num);
     return 0;
 }
 
