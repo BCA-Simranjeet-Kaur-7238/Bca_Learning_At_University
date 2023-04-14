@@ -8,13 +8,13 @@
 int main() {
     int N = 7;
     int binary[32];
-    int i;
+    int i,j;
     for (i = 0; N > 0; i++) {
         binary[i] = N & 1;
         N = N >> 1;
     }
     printf("BINARY EQUIVALENT OF 7 IS : ");
-    for (int j = i - 1; j >= 0; j--) {
+    for (j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
     return 0;
